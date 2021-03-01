@@ -65,7 +65,7 @@ livenessProbe:
 readinessProbe:
   # -- Kubernetes readiness probe configs
   httpGetPath: /ping
-  initialDelaySeconds: 30
+  initialDelaySeconds: 60
   timeoutSeconds: 3
   periodSeconds: 5
 
