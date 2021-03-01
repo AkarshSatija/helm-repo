@@ -1,0 +1,13 @@
+name: release
+on: [push, pull_request]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Publish Helm charts
+        uses: Gerrit91/helm-gh-pages@override-releases
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          charts_dir: stable
