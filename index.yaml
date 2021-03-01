@@ -3,7 +3,7 @@ entries:
   cortex:
   - apiVersion: v2
     appVersion: v1.4.0
-    created: "2021-02-18T08:10:38.672027186Z"
+    created: "2021-03-01T07:55:21.252232843Z"
     dependencies:
     - alias: memcached
       condition: memcached.enabled
@@ -44,7 +44,7 @@ entries:
       - blocks-storage-memcached
       version: 3.2.3
     description: Cortex
-    digest: cad9b974d86615ef2642d35cb4d8bd441c9cd118cf22d2d366b5ca8fdbb79e2e
+    digest: b100bfc198bad3346865dc30b22fb51acdf145bae913c6295263ec994b226c9b
     home: https://cortexmetrics.io/
     icon: https://avatars2.githubusercontent.com/u/43045022?s=200&v=4
     kubeVersion: ^1.10.0-0
@@ -57,4 +57,18 @@ entries:
     urls:
     - https://AkarshSatija.github.io/helm-repo/cortex-0.2.1.tgz
     version: 0.2.1
-generated: "2021-02-18T08:10:38.664887152Z"
+  siren:
+  - apiVersion: v1
+    appVersion: v0.0.1
+    created: "2021-03-01T07:55:21.252866349Z"
+    description: Siren Helm chart
+    digest: 103614e6134ec3b377dead51e0b4e65c261a353e6f7a9ef4ffc5e3b8c2e63505
+    home: https://github.com/odpf/siren
+    name: siren
+    sources:
+    - https://github.com/odpf/siren
+    - https://github.com/odpf/charts
+    urls:
+    - https://AkarshSatija.github.io/helm-repo/siren-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-03-01T07:55:21.245482774Z"
